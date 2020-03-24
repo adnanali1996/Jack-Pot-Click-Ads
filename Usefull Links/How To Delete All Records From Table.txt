@@ -1,0 +1,17 @@
+https://hdtuto.com/article/laravel-delete-all-records-from-table-query
+
+Solution 1:
+
+User::truncate();
+
+Solution 2:
+
+User::whereNotNull('id')->delete();
+
+Solution 3:
+
+User:where('id', 'like' '%%')->delete();
+
+Solution 4:
+
+DB::table('users')->delete();

@@ -1,0 +1,4 @@
+Carbon::now()->addMonths(2); it add months with time stamps but i need without timestams
+so i used this
+date('Y-m-d', strtotime('+4 months'))
+https://laravel.io/forum/02-13-2014-add-two-months-to-the-current-date

@@ -1,0 +1,4 @@
+
+https://laravel-news.com/tips-for-using-laravels-scheduler
+
+->days([1, 3, 5]);

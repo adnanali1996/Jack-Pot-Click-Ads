@@ -1,0 +1,808 @@
+/*---------------------------------------------------------------------
+    Large Desktops
+-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .site-preloader .spinner {
+        margin: 30% auto;
+    }
+    .why-choose-content {
+        padding: 40px 20px;
+    }
+    .why-choose-content .single-item-icon {
+        width: 55px;
+        height: 55px;
+        padding: 12px 0 0;
+    }
+}
+
+
+/*---------------------------------------------------------------------
+    Desktops
+----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .site-preloader .spinner {
+        margin: 40% auto;
+    }
+    .nav > li > a {
+        padding: 10px;
+    }
+    .slide-caption h1,
+    .parallax-content h1,
+    .banner-content h1 {
+        font-size: 40px;
+        line-height: 50px
+    }
+    .slide-caption p,
+    .banner-content p,
+    .parallax-content p {
+        width: 70%;
+        font-size: 18px;
+        line-height: 28px
+    }
+    .slide-caption a,
+    .parallax-content a,
+    .banner-content a {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+    #about-area {
+        padding: 70px 0 80px;
+    }
+    .about-content {
+        padding: 0 0 30px;
+    }
+    .why-choose-img {
+        display: none;
+    }
+    .why-choose-content {
+        padding: 70px 50px 20px;
+    }
+    .why-choose-content h4 {
+        margin: 30px 0 10px;
+        text-align: center
+    }
+    .why-choose-content p,
+    .why-choose-content h2 {
+        text-align: center;
+    }
+    .why-choose-content .single-item {
+        margin: 0 0 40px;
+    }
+    #services-area,
+    #latest-blog {
+        padding: 65px 0 20px;
+    }
+    .service-single-item {
+        margin: 0 0 55px;
+    }
+    #portfolio-area,
+    #contact-area {
+        padding: 65px 0 0;
+    }
+    #pricing-area {
+        padding: 65px 0 125px;
+    }
+    .section-heading {
+        margin: 0 0 60px;
+    }
+    #pricing-area .section-heading {
+        margin: 0 0 105px;
+    }
+    #counter-area {
+        padding: 65px 0 15px;
+    }
+    .counter-single {
+        margin: 0 0 60px;
+    }
+    #team-area {
+        padding: 65px 0 40px;
+    }
+    .team-single {
+        margin: 0 0 40px;
+    }
+    #testimonial-area {
+        padding: 65px 0 75px;
+    }
+    #newsletter-area {
+        padding: 65px 0 80px;
+    }
+    .contact-form {
+        margin: 0 0 60px;
+    }
+    #partner-area {
+        padding: 70px 0;
+    }
+    .blog-wrap {
+        padding: 80px 0 55px;
+    }
+    .blog-post-single {
+        margin: 0 0 50px;
+    }
+    .blog-single-wrap {
+        padding: 80px 0;
+    }
+    .not-found-content h1 {
+        font-size: 120px;
+        line-height: 130px;
+    }
+
+}
+
+
+/*---------------------------------------------------------------------
+    Tablets Devices
+-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .site-preloader .spinner {
+        margin: 60% auto;
+    }
+    .navbar-nav {
+        background: #00dbde;
+        background: -webkit-gradient(linear, left top, right top, from(#00dbde), to(#8838d8));
+        background: linear-gradient(90deg, #00dbde, #8838d8);
+    }
+    .navbar-toggle {
+        margin-top: 18px;
+        margin-bottom: 0;
+        background-color: #fff;
+        border-bottom: 0
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: #fff;
+    }
+    .navbar-collapse {
+        border-top: 0;
+    }
+    .nav > li > a {
+        padding: 10px;
+    }
+    .main-menu.affix .navbar-default .navbar-nav > li.active > a,
+    .main-menu.affix .navbar-default .navbar-nav > li.active > a:focus,
+    .main-menu.affix .navbar-default .navbar-nav > li > a:focus,
+    .main-menu.affix .navbar-default .navbar-nav > li.active > a:hover,
+    .main-menu.affix .navbar-default .navbar-nav > li > a:hover {
+        color: #6A38F6;
+        background-color: transparent;
+    }
+    .slide-caption h3,
+    .parallax-content h3,
+    .banner-content h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .slide-caption h1,
+    .parallax-content h1,
+    .banner-content h1 {
+        font-size: 40px;
+        line-height: 50px
+    }
+    .tbl-cell {
+        padding: 25px 10px 0;
+    }
+    .slide-caption p,
+    .banner-content p,
+    .parallax-content p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px
+    }
+    .slide-caption a,
+    .parallax-content a,
+    .banner-content a {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    .slider.owl-carousel .owl-nav > div {
+        left: 5px;
+        font-size: 30px;
+    }
+    .slider.owl-carousel .owl-nav .owl-next {
+        right: 5px;
+        left: auto;
+    }
+    #about-area {
+        padding: 60px 0 70px;
+    }
+    .about-content {
+        padding: 0 0 30px;
+    }
+    .about-content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .why-choose-img {
+        display: none;
+    }
+    .why-choose-content {
+        padding: 50px 0 0;
+        overflow: hidden
+    }
+    .why-choose-content h4 {
+        margin: 30px 0 10px;
+        text-align: center
+    }
+    .why-choose-content p,
+    .why-choose-content h2 {
+        text-align: center;
+    }
+    .why-choose-content .single-item {
+        margin: 0 0 40px;
+    }
+    #services-area,
+    #latest-blog,
+    #portfolio-area,
+    #contact-area {
+        padding: 55px 0 0;
+    }
+    #services-area .section-heading {
+        margin: 0 0 75px;
+    }
+    .service-single-item {
+        margin: 0 0 55px;
+    }
+    .portfolio-menu {
+        margin: 0 0 30px;
+    }
+    .portfolio-menu button {
+        padding: 8px 12px;
+        margin: 0 0 10px;
+    }
+    .portfolio-overlay {
+        padding: 41% 0;
+    }
+    #pricing-area {
+        padding: 55px 0 40px;
+    }
+    .pricing-tbl-single.popular {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .pricing-tbl-single {
+        margin: 0 0 30px;
+    }
+    .section-heading {
+        margin: 0 0 60px;
+    }
+    #pricing-area .section-heading {
+        margin: 0 0 60px;
+    }
+    #counter-area {
+        padding: 55px 0 15px;
+    }
+    #counter-area .section-heading {
+        margin: 0 0 75px;
+    }
+    .counter-single {
+        margin: 0 0 50px;
+    }
+    .counter-icon {
+        margin: 0 auto 30px;
+    }
+    .counter-single h1,
+    .counter-single h4 {
+        margin: 0;
+    }
+    #team-area {
+        padding: 55px 0 30px;
+    }
+    .team-single {
+        margin: 0 0 40px;
+    }
+    #testimonial-area {
+        padding: 55px 0 65px;
+    }
+    #newsletter-area {
+        padding: 55px 0 70px;
+    }
+    .contact-form {
+        margin: 0 0 50px;
+    }
+    .subscribe-form input {
+        height: 40px;
+        margin: 0 0 10px;
+    }
+    .subscribe-btn button {
+        height: 40px;
+        font-size: 16px;
+    }
+    #partner-area {
+        padding: 60px 0;
+    }
+    .blog-wrap {
+        padding: 70px 0 40px;
+    }
+    .blog-post-single {
+        margin: 0 0 45px;
+    }
+    .blog-sidebar {
+        margin: 35px 0 0;
+    }
+    .blog-single-wrap {
+        padding: 70px 0 40px;
+    }
+    .comment-form {
+        margin: 0 0 55px;
+    }
+    .blog-single-wrap .blog-post-single {
+        margin: 0 0 25px;
+    }
+    .not-found-content h1 {
+        font-size: 100px;
+        line-height: 110px;
+    }
+    .not-found-content h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+    .not-found-wrap {
+        padding: 80px 0 120px;
+    }
+}
+
+
+/*----------------------------------------------------------------------
+   Mobile Devices
+------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .site-preloader .spinner {
+        margin: 60% auto;
+    }
+    .navbar-nav {
+        background: #00dbde;
+        background: -webkit-gradient(linear, left top, right top, from(#00dbde), to(#8838d8));
+        background: linear-gradient(90deg, #00dbde, #8838d8);
+    }
+    .navbar-toggle {
+        margin-top: 18px;
+        margin-bottom: 0;
+        background-color: #fff;
+        border-bottom: 0
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: #fff;
+    }
+    .navbar-collapse {
+        border-top: 0;
+    }
+    .nav > li > a {
+        padding: 10px;
+    }
+    .main-menu.affix .navbar-default .navbar-nav > li.active > a,
+    .main-menu.affix .navbar-default .navbar-nav > li.active > a:focus,
+    .main-menu.affix .navbar-default .navbar-nav > li > a:focus,
+    .main-menu.affix .navbar-default .navbar-nav > li.active > a:hover,
+    .main-menu.affix .navbar-default .navbar-nav > li > a:hover {
+        color: #6A38F6;
+        background-color: transparent;
+    }
+    .slide-caption h3,
+    .parallax-content h3,
+    .banner-content h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .slide-caption h1,
+    .parallax-content h1,
+    .banner-content h1 {
+        font-size: 30px;
+        line-height: 40px
+    }
+    .tbl-cell {
+        padding: 25px 10px 0;
+    }
+    .slide-caption p,
+    .banner-content p,
+    .parallax-content p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px
+    }
+    .slide-caption a,
+    .parallax-content a,
+    .banner-content a {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .slider.owl-carousel .owl-nav > div {
+        left: 5px;
+        font-size: 24px;
+    }
+    .slider.owl-carousel .owl-nav .owl-next {
+        right: 5px;
+        left: auto;
+    }
+    .parallax-content {
+        padding: 0 5%;
+    }
+    #about-area {
+        padding: 50px 0 60px;
+    }
+    .about-content {
+        padding: 0 0 30px;
+    }
+    .about-content h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .why-choose-img {
+        display: none;
+    }
+    .why-choose-content {
+        padding: 50px 0 0;
+        overflow: hidden
+    }
+    .why-choose-content h4 {
+        margin: 30px 0 10px;
+        text-align: center
+    }
+    .why-choose-content p,
+    .why-choose-content h2 {
+        text-align: center;
+    }
+    .why-choose-content .single-item {
+        margin: 0 0 40px;
+    }
+    #services-area,
+    #latest-blog,
+    #portfolio-area,
+    #contact-area {
+        padding: 45px 0 0;
+    }
+    #services-area .section-heading {
+        margin: 0 0 75px;
+    }
+    .service-single-item {
+        margin: 0 0 55px;
+    }
+    .portfolio-menu {
+        margin: 0 0 30px;
+    }
+    .portfolio-menu button {
+        padding: 6px 15px;
+        margin: 0 0 10px;
+    }
+    .portfolio-overlay {
+        padding: 35.5% 0;
+    }
+    #pricing-area {
+        padding: 45px 0 30px;
+    }
+    .pricing-tbl-single.popular {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .pricing-tbl-single {
+        margin: 0 0 30px;
+    }
+    .section-heading {
+        margin: 0 0 60px;
+    }
+    #pricing-area .section-heading {
+        margin: 0 0 60px;
+    }
+    #counter-area {
+        padding: 45px 0 5px;
+    }
+    #counter-area .section-heading {
+        margin: 0 0 75px;
+    }
+    .counter-single {
+        margin: 0 0 50px;
+    }
+    .counter-icon {
+        margin: 0 auto 30px;
+    }
+    .counter-single h1,
+    .counter-single h4 {
+        margin: 0;
+    }
+    #team-area {
+        padding: 45px 0 20px;
+    }
+    .team-single {
+        margin: 0 0 40px;
+    }
+    #testimonial-area {
+        padding: 45px 0 55px;
+    }
+    #newsletter-area {
+        padding: 45px 0 60px;
+    }
+    .contact-form {
+        margin: 0 0 50px;
+    }
+    .subscribe-form input {
+        height: 40px;
+        margin: 0 0 10px;
+    }
+    .subscribe-btn button {
+        height: 40px;
+        font-size: 16px;
+    }
+    #partner-area {
+        padding: 50px 0;
+    }
+    .blog-wrap {
+        padding: 60px 0 30px;
+    }
+    .post-meta span a {
+        font-size: 12px;
+    }
+    .blog-post-single {
+        margin: 0 0 45px;
+    }
+    .pagination {
+        margin: 0 0 40px;
+    }
+    .blog-single-wrap {
+        padding: 60px 0 25px;
+    }
+    .comment-form {
+        margin: 0 0 55px;
+    }
+    .blog-single-wrap .blog-post-single {
+        margin: 0 0 25px;
+    }
+    .blog-comments > h3 {
+        margin: 25px 0 30px;
+    }
+    .not-found-content h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .not-found-content h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .not-found-content h4 {
+        margin: 0;
+        font-size: 16px
+    }
+    .not-found-wrap {
+        padding: 60px 0 95px;
+    }
+    .page-title h1 {
+        font-size: 30px;
+    }
+    .breadcrumb {
+        padding: 0 15px;
+    }
+}
+
+
+/*----------------------------------------------------------------------
+    Small Screen Mobile Devices
+-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    .site-preloader .spinner {
+        margin: 60% auto;
+    }
+    .navbar-nav {
+        background: #00dbde;
+        background: -webkit-gradient(linear, left top, right top, from(#00dbde), to(#8838d8));
+        background: linear-gradient(90deg, #00dbde, #8838d8);
+    }
+    .navbar-toggle {
+        margin-top: 18px;
+        margin-bottom: 0;
+        background-color: #fff;
+        border-bottom: 0
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: #fff;
+    }
+    .navbar-collapse {
+        border-top: 0;
+    }
+    .nav > li > a {
+        padding: 10px;
+    }
+    .main-menu.affix .navbar-default .navbar-nav > li.active > a,
+    .main-menu.affix .navbar-default .navbar-nav > li.active > a:focus,
+    .main-menu.affix .navbar-default .navbar-nav > li > a:focus,
+    .main-menu.affix .navbar-default .navbar-nav > li.active > a:hover,
+    .main-menu.affix .navbar-default .navbar-nav > li > a:hover {
+        color: #6A38F6;
+        background-color: transparent;
+    }
+    .slide-caption h3,
+    .parallax-content h3,
+    .banner-content h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .slide-caption h1,
+    .parallax-content h1,
+    .banner-content h1 {
+        font-size: 30px;
+        line-height: 40px
+    }
+    .tbl-cell {
+        padding: 25px 10px 0;
+    }
+    .slide-caption p,
+    .banner-content p,
+    .parallax-content p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px
+    }
+    .slide-caption a,
+    .parallax-content a,
+    .banner-content a {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .slider.owl-carousel .owl-nav > div {
+        left: 5px;
+        font-size: 24px;
+    }
+    .slider.owl-carousel .owl-nav .owl-next {
+        right: 5px;
+        left: auto;
+    }
+    .parallax-content {
+        padding: 0 5%;
+    }
+    #about-area {
+        padding: 50px 0 60px;
+    }
+    .about-content {
+        padding: 0 0 30px;
+    }
+    .about-content h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .why-choose-img {
+        display: none;
+    }
+    .why-choose-content {
+        padding: 50px 0 0;
+        overflow: hidden
+    }
+    .why-choose-content h4 {
+        margin: 30px 0 10px;
+        text-align: center
+    }
+    .why-choose-content p,
+    .why-choose-content h2 {
+        text-align: center;
+    }
+    .why-choose-content .single-item {
+        margin: 0 0 40px;
+    }
+    #services-area,
+    #latest-blog,
+    #portfolio-area,
+    #contact-area {
+        padding: 45px 0 0;
+    }
+    #services-area .section-heading {
+        margin: 0 0 75px;
+    }
+    .service-single-item {
+        margin: 0 0 55px;
+    }
+    .portfolio-menu {
+        margin: 0 0 30px;
+    }
+    .portfolio-menu button {
+        padding: 6px 15px;
+        margin: 0 0 10px;
+    }
+    .portfolio-overlay {
+        padding: 35.5% 0;
+    }
+    #pricing-area {
+        padding: 45px 0 30px;
+    }
+    .pricing-tbl-single.popular {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .pricing-tbl-single {
+        margin: 0 0 30px;
+    }
+    .section-heading {
+        margin: 0 0 60px;
+    }
+    #pricing-area .section-heading {
+        margin: 0 0 60px;
+    }
+    #counter-area {
+        padding: 45px 0 5px;
+    }
+    #counter-area .section-heading {
+        margin: 0 0 75px;
+    }
+    .counter-single {
+        margin: 0 0 50px;
+    }
+    .counter-icon {
+        margin: 0 auto 30px;
+    }
+    .counter-single h1,
+    .counter-single h4 {
+        margin: 0;
+    }
+    #team-area {
+        padding: 45px 0 20px;
+    }
+    .team-single {
+        margin: 0 0 40px;
+    }
+    #testimonial-area {
+        padding: 45px 0 55px;
+    }
+    #newsletter-area {
+        padding: 45px 0 60px;
+    }
+    .contact-form {
+        margin: 0 0 50px;
+    }
+    .subscribe-form input {
+        height: 40px;
+        margin: 0 0 10px;
+    }
+    .subscribe-btn button {
+        height: 40px;
+        font-size: 16px;
+    }
+    #partner-area {
+        padding: 50px 0;
+    }
+    .blog-wrap {
+        padding: 60px 0 30px;
+    }
+    .post-meta span a {
+        font-size: 12px;
+    }
+    .blog-post-single {
+        margin: 0 0 45px;
+    }
+    .pagination {
+        margin: 0 0 40px;
+    }
+    .blog-single-wrap {
+        padding: 60px 0 25px;
+    }
+    .comment-form {
+        margin: 0 0 55px;
+    }
+    .blog-single-wrap .blog-post-single {
+        margin: 0 0 25px;
+    }
+    .blog-comments > h3 {
+        margin: 25px 0 30px;
+    }
+    .not-found-content h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .not-found-content h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .not-found-content h4 {
+        margin: 0;
+        font-size: 14px
+    }
+    .not-found-wrap {
+        padding: 60px 0 95px;
+    }
+    .page-title h1 {
+        font-size: 30px;
+    }
+    .breadcrumb {
+        padding: 0 15px;
+    }
+}

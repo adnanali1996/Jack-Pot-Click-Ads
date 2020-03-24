@@ -1,0 +1,4 @@
+alter table mytable add date_created date default null;
+
+
+https://stackoverflow.com/questions/30334933/oracle-add-date-column-to-existing-table-default-to-sysdate-new-rows-only
